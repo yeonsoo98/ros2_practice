@@ -3,34 +3,34 @@ from rclpy.node import Node
 from tutorial_interfaces.msg import RobotInfo
 from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
-
+from rclpy.qos import QoSProfile
 
 class Pub(Node):
 
     def __init__(self):
         super().__init__('pub')
+        qos_profile = QoSProfile(depth=10)
         
         # target robot
         self.info_publisher = self.create_publisher(
             RobotInfo,
             'robot_namespace_0/info',
-            10)        
+            qos_profile)        
 
         # robot move 
         self.odom_publisher = self.create_publisher(
             Odometry,
             'robot_namespace_0/odom',
-            10
-        )
+            qos_profile)
+
         self.odom_publisher
         
         # robot speed 
-        self.cmd_vel_publisher = self.create_subscription(
+        self.cmd_vel_publisher = self.create_publisher(
             Twist,
             'robot_namespace_0/cmd_vel',
-            10
-        )
-
+            qos_profile)
+            
         self.cmd_vel_publisher
 
         self.info_msg = RobotInfo()
