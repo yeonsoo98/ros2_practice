@@ -1,0 +1,17 @@
+[0.747s] Invoking command in '/home/ys/ys_ws/build/robot_info': PYTHONPATH=/home/ys/ys_ws/install/robot_info/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/ys_ws/install/robot_info --editable --build-directory /home/ys/ys_ws/build/robot_info/build --no-deps install_data --install-dir /home/ys/ys_ws/install/robot_info
+[1.014s] running develop
+[1.155s] running egg_info
+[1.156s] writing robot_info.egg-info/PKG-INFO
+[1.156s] writing dependency_links to robot_info.egg-info/dependency_links.txt
+[1.157s] writing entry points to robot_info.egg-info/entry_points.txt
+[1.157s] writing requirements to robot_info.egg-info/requires.txt
+[1.158s] writing top-level names to robot_info.egg-info/top_level.txt
+[1.186s] reading manifest file 'robot_info.egg-info/SOURCES.txt'
+[1.187s] writing manifest file 'robot_info.egg-info/SOURCES.txt'
+[1.221s] running build_ext
+[1.222s] Creating /home/ys/ys_ws/install/robot_info/lib/python3.8/site-packages/robot-info.egg-link (link to .)
+[1.223s] Installing robot_info script to /home/ys/ys_ws/install/robot_info/lib/robot_info
+[1.223s] 
+[1.223s] Installed /home/ys/ys_ws/build/robot_info
+[1.224s] running install_data
+[1.268s] Invoked command in '/home/ys/ys_ws/build/robot_info' returned '0': PYTHONPATH=/home/ys/ys_ws/install/robot_info/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/ys_ws/install/robot_info --editable --build-directory /home/ys/ys_ws/build/robot_info/build --no-deps install_data --install-dir /home/ys/ys_ws/install/robot_info

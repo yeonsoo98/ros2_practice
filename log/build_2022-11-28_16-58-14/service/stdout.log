@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating service.egg-info
+writing service.egg-info/PKG-INFO
+writing dependency_links to service.egg-info/dependency_links.txt
+writing entry points to service.egg-info/entry_points.txt
+writing requirements to service.egg-info/requires.txt
+writing top-level names to service.egg-info/top_level.txt
+writing manifest file 'service.egg-info/SOURCES.txt'
+reading manifest file 'service.egg-info/SOURCES.txt'
+writing manifest file 'service.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ys/ys_ws/install/service/lib/python3.8/site-packages/site.py
+Creating /home/ys/ys_ws/install/service/lib/python3.8/site-packages/service.egg-link (link to .)
+Installing pub script to /home/ys/ys_ws/install/service/lib/service
+Installing sub script to /home/ys/ys_ws/install/service/lib/service
+
+Installed /home/ys/ys_ws/build/service
+running install_data
+creating /home/ys/ys_ws/install/service/share/ament_index
+creating /home/ys/ys_ws/install/service/share/ament_index/resource_index
+creating /home/ys/ys_ws/install/service/share/ament_index/resource_index/packages
+copying resource/service -> /home/ys/ys_ws/install/service/share/ament_index/resource_index/packages
+copying package.xml -> /home/ys/ys_ws/install/service/share/service

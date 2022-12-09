@@ -1,0 +1,16 @@
+[1.656s] Invoking command in '/home/ys/ys_ws/build/robot_service': PYTHONPATH=/home/ys/ys_ws/install/robot_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/ys_ws/install/robot_service --editable --build-directory /home/ys/ys_ws/build/robot_service/build --no-deps install_data --install-dir /home/ys/ys_ws/install/robot_service
+[2.330s] running develop
+[2.631s] running egg_info
+[2.638s] writing robot_service.egg-info/PKG-INFO
+[2.639s] writing dependency_links to robot_service.egg-info/dependency_links.txt
+[2.639s] writing entry points to robot_service.egg-info/entry_points.txt
+[2.639s] writing requirements to robot_service.egg-info/requires.txt
+[2.643s] writing top-level names to robot_service.egg-info/top_level.txt
+[2.726s] reading manifest file 'robot_service.egg-info/SOURCES.txt'
+[2.729s] writing manifest file 'robot_service.egg-info/SOURCES.txt'
+[2.829s] running build_ext
+[2.830s] Creating /home/ys/ys_ws/install/robot_service/lib/python3.8/site-packages/robot-service.egg-link (link to .)
+[2.831s] 
+[2.831s] Installed /home/ys/ys_ws/build/robot_service
+[2.836s] running install_data
+[2.938s] Invoked command in '/home/ys/ys_ws/build/robot_service' returned '0': PYTHONPATH=/home/ys/ys_ws/install/robot_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/ys_ws/install/robot_service --editable --build-directory /home/ys/ys_ws/build/robot_service/build --no-deps install_data --install-dir /home/ys/ys_ws/install/robot_service

@@ -1,0 +1,18 @@
+[0.972s] Invoking command in '/home/ys/ys_ws/build/service': PYTHONPATH=/home/ys/ys_ws/install/service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/ys_ws/install/service --editable --build-directory /home/ys/ys_ws/build/service/build --no-deps install_data --install-dir /home/ys/ys_ws/install/service
+[1.314s] running develop
+[1.511s] running egg_info
+[1.511s] writing service.egg-info/PKG-INFO
+[1.511s] writing dependency_links to service.egg-info/dependency_links.txt
+[1.511s] writing entry points to service.egg-info/entry_points.txt
+[1.511s] writing requirements to service.egg-info/requires.txt
+[1.511s] writing top-level names to service.egg-info/top_level.txt
+[1.569s] reading manifest file 'service.egg-info/SOURCES.txt'
+[1.569s] writing manifest file 'service.egg-info/SOURCES.txt'
+[1.619s] running build_ext
+[1.620s] Creating /home/ys/ys_ws/install/service/lib/python3.8/site-packages/service.egg-link (link to .)
+[1.621s] Installing pub script to /home/ys/ys_ws/install/service/lib/service
+[1.621s] Installing sub script to /home/ys/ys_ws/install/service/lib/service
+[1.621s] 
+[1.621s] Installed /home/ys/ys_ws/build/service
+[1.621s] running install_data
+[1.664s] Invoked command in '/home/ys/ys_ws/build/service' returned '0': PYTHONPATH=/home/ys/ys_ws/install/service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/ys_ws/install/service --editable --build-directory /home/ys/ys_ws/build/service/build --no-deps install_data --install-dir /home/ys/ys_ws/install/service

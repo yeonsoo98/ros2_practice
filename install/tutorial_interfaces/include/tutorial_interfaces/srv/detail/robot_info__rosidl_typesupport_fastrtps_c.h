@@ -1,0 +1,1 @@
+/home/ys/ys_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/robot_info__rosidl_typesupport_fastrtps_c.h

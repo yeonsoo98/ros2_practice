@@ -1,0 +1,3 @@
+[console_scripts]
+robot_info = robot_info.robot_info:main
+

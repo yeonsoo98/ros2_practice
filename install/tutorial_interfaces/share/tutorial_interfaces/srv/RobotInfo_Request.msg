@@ -1,0 +1,1 @@
+/home/ys/ys_ws/build/tutorial_interfaces/rosidl_cmake/srv/RobotInfo_Request.msg

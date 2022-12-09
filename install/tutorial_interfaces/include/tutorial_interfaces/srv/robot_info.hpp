@@ -1,0 +1,1 @@
+/home/ys/ys_ws/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/srv/robot_info.hpp

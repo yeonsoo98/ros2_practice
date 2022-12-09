@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tutorial_interfaces/msg/RobotInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Twist.idl"
+
+module tutorial_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " Messages")
+    struct RobotInfo {
+      geometry_msgs::msg::Twist speed;
+
+      geometry_msgs::msg::Point position;
+
+      geometry_msgs::msg::Quaternion orientation;
+
+      float front_range;
+    };
+  };
+};

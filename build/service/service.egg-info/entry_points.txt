@@ -1,0 +1,4 @@
+[console_scripts]
+pub = service.pub:main
+sub = service.sub:main
+

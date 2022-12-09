@@ -1,0 +1,163 @@
+[0.066s] Invoking command in '/home/ys/ys_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/ys_ws/install/robot_service:/home/ys/ys_ws/install/robot_info:/home/ys/turtlebot3_ws/install/turtlebot3_teleop:/home/ys/turtlebot3_ws/install/turtlebot3_example:/home/ys/study_ws/install/topic_service_action_rclpy_example:/home/ys/study_ws/install/time_rclpy_example:/home/ys/study_ws/install/tf2_rclpy_example:/home/ys/study_ws/install/ros2env:/home/ys/study_ws/install/my_first_ros_rclpy_pkg:/home/ys/study_ws/install/logging_rclpy_example:/home/ys/db_ws/install/examples_rclpy_minimal_subscriber:/home/ys/db_ws/install/db_subscriber:/home/ys/ros2swarm/install/ros2swarm:/home/ys/ros2swarm/install/multi:/home/ys/ros2swarm/install/launch_turtlebot_gazebo:/opt/ros/foxy /usr/bin/cmake --build /home/ys/ys_ws/build/tutorial_interfaces -- -j2 -l2
+[0.117s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.178s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.178s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.405s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.413s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.445s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.768s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.875s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.963s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.046s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.144s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.215s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.443s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.915s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.109s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.172s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.173s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.233s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.233s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.233s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.372s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.374s] -- Added test 'lint_cmake' to check CMake code style
+[2.375s] -- Added test 'xmllint' to check XML markup files
+[2.385s] -- Configuring done
+[2.543s] -- Generating done
+[2.552s] -- Build files have been written to: /home/ys/ys_ws/build/tutorial_interfaces
+[2.653s] [  2%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[2.674s] [  5%] Built target tutorial_interfaces__cpp
+[2.769s] [  7%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[2.785s] [ 15%] Built target tutorial_interfaces__rosidl_generator_c
+[2.870s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[2.905s] [ 25%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.933s] [ 28%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.013s] [ 35%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[3.113s] [ 38%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[3.215s] [ 46%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.244s] [ 53%] Built target tutorial_interfaces__rosidl_typesupport_c
+[3.257s] [ 56%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.286s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.361s] [ 58%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/robot_info__type_support_c.cpp.o[0m
+[3.410s] [ 66%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[3.450s] [ 69%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/robot_info__type_support_c.cpp.o[0m
+[4.124s] [ 71%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.253s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[4.287s] [ 74%] Built target tutorial_interfaces
+[4.331s] [ 76%] Built target tutorial_interfaces__py
+[4.374s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so[0m
+[4.448s] [ 84%] Built target tutorial_interfaces__python
+[4.525s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.529s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.600s] [ 92%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[4.625s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.697s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.728s] [ 97%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.853s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.970s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.004s] Invoked command in '/home/ys/ys_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/ys_ws/install/robot_service:/home/ys/ys_ws/install/robot_info:/home/ys/turtlebot3_ws/install/turtlebot3_teleop:/home/ys/turtlebot3_ws/install/turtlebot3_example:/home/ys/study_ws/install/topic_service_action_rclpy_example:/home/ys/study_ws/install/time_rclpy_example:/home/ys/study_ws/install/tf2_rclpy_example:/home/ys/study_ws/install/ros2env:/home/ys/study_ws/install/my_first_ros_rclpy_pkg:/home/ys/study_ws/install/logging_rclpy_example:/home/ys/db_ws/install/examples_rclpy_minimal_subscriber:/home/ys/db_ws/install/db_subscriber:/home/ys/ros2swarm/install/ros2swarm:/home/ys/ros2swarm/install/multi:/home/ys/ros2swarm/install/launch_turtlebot_gazebo:/opt/ros/foxy /usr/bin/cmake --build /home/ys/ys_ws/build/tutorial_interfaces -- -j2 -l2
+[5.187s] Invoking command in '/home/ys/ys_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/ys_ws/install/robot_service:/home/ys/ys_ws/install/robot_info:/home/ys/turtlebot3_ws/install/turtlebot3_teleop:/home/ys/turtlebot3_ws/install/turtlebot3_example:/home/ys/study_ws/install/topic_service_action_rclpy_example:/home/ys/study_ws/install/time_rclpy_example:/home/ys/study_ws/install/tf2_rclpy_example:/home/ys/study_ws/install/ros2env:/home/ys/study_ws/install/my_first_ros_rclpy_pkg:/home/ys/study_ws/install/logging_rclpy_example:/home/ys/db_ws/install/examples_rclpy_minimal_subscriber:/home/ys/db_ws/install/db_subscriber:/home/ys/ros2swarm/install/ros2swarm:/home/ys/ros2swarm/install/multi:/home/ys/ros2swarm/install/launch_turtlebot_gazebo:/opt/ros/foxy /usr/bin/cmake --install /home/ys/ys_ws/build/tutorial_interfaces
+[5.201s] -- Install configuration: ""
+[5.201s] -- Execute custom install script
+[5.201s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[5.205s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__functions.h
+[5.205s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__struct.h
+[5.205s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__type_support.h
+[5.205s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/robot_info.h
+[5.205s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.207s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__functions.h
+[5.207s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__struct.h
+[5.207s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__type_support.h
+[5.207s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/robot_info.h
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__rosidl_typesupport_fastrtps_c.h
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__rosidl_typesupport_fastrtps_c.h
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.208s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__rosidl_typesupport_introspection_c.h
+[5.210s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.210s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__rosidl_typesupport_introspection_c.h
+[5.210s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__builder.hpp
+[5.210s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__struct.hpp
+[5.210s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__traits.hpp
+[5.211s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/robot_info.hpp
+[5.211s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__builder.hpp
+[5.211s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__struct.hpp
+[5.211s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__traits.hpp
+[5.211s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/robot_info.hpp
+[5.212s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/robot_info__rosidl_typesupport_introspection_cpp.hpp
+[5.212s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/robot_info__rosidl_typesupport_introspection_cpp.hpp
+[5.214s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[5.216s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[5.216s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+[5.218s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py
+[5.219s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_robot_info.py
+[5.220s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py
+[5.220s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_robot_info.py
+[5.220s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.220s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.221s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.222s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[5.222s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/RobotInfo.idl
+[5.222s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/RobotInfo.idl
+[5.224s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/RobotInfo.msg
+[5.224s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/RobotInfo.srv
+[5.224s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/RobotInfo_Request.msg
+[5.224s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/RobotInfo_Response.msg
+[5.227s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[5.227s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[5.227s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[5.228s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[5.228s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[5.229s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[5.229s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[5.233s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[5.233s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[5.233s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[5.233s] -- Symlinking: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[5.250s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[5.251s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.252s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.252s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.255s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.256s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.257s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.260s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.263s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[5.264s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[5.264s] -- Up-to-date symlink: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[5.265s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[5.265s] -- Set runtime path of "/home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[5.266s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[5.270s] -- Set runtime path of "/home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.270s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[5.270s] -- Set runtime path of "/home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[5.271s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.271s] -- Set runtime path of "/home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.272s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[5.272s] -- Set runtime path of "/home/ys/ys_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.361s] Compiling '/home/ys/ys_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+[5.365s] -- Old export file "/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[5.366s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+[5.366s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.367s] -- Old export file "/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[5.367s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.367s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.368s] -- Old export file "/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[5.368s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[5.368s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.369s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+[5.369s] -- Old export file "/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[5.369s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.370s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.370s] -- Old export file "/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[5.370s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[5.370s] -- Installing: /home/ys/ys_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.374s] Invoked command in '/home/ys/ys_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/ys_ws/install/robot_service:/home/ys/ys_ws/install/robot_info:/home/ys/turtlebot3_ws/install/turtlebot3_teleop:/home/ys/turtlebot3_ws/install/turtlebot3_example:/home/ys/study_ws/install/topic_service_action_rclpy_example:/home/ys/study_ws/install/time_rclpy_example:/home/ys/study_ws/install/tf2_rclpy_example:/home/ys/study_ws/install/ros2env:/home/ys/study_ws/install/my_first_ros_rclpy_pkg:/home/ys/study_ws/install/logging_rclpy_example:/home/ys/db_ws/install/examples_rclpy_minimal_subscriber:/home/ys/db_ws/install/db_subscriber:/home/ys/ros2swarm/install/ros2swarm:/home/ys/ros2swarm/install/multi:/home/ys/ros2swarm/install/launch_turtlebot_gazebo:/opt/ros/foxy /usr/bin/cmake --install /home/ys/ys_ws/build/tutorial_interfaces

@@ -1,0 +1,6 @@
+msg/RobotInfo.idl
+msg/RobotInfo.msg
+srv/RobotInfo.idl
+srv/RobotInfo.srv
+srv/RobotInfo_Request.msg
+srv/RobotInfo_Response.msg

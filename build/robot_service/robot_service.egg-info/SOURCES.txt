@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_service
+robot_service/__init__.py
+robot_service/pub.py
+robot_service/sub.py
+robot_service.egg-info/PKG-INFO
+robot_service.egg-info/SOURCES.txt
+robot_service.egg-info/dependency_links.txt
+robot_service.egg-info/entry_points.txt
+robot_service.egg-info/requires.txt
+robot_service.egg-info/top_level.txt
+robot_service.egg-info/zip-safe

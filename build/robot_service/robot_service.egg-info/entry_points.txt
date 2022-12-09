@@ -1,0 +1,4 @@
+[console_scripts]
+pub = robot_service.pub:main
+sub = robot_service.sub:main
+

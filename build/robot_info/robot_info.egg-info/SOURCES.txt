@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_info
+robot_info/__init__.py
+robot_info/robot_info.py
+robot_info.egg-info/PKG-INFO
+robot_info.egg-info/SOURCES.txt
+robot_info.egg-info/dependency_links.txt
+robot_info.egg-info/entry_points.txt
+robot_info.egg-info/requires.txt
+robot_info.egg-info/top_level.txt
+robot_info.egg-info/zip-safe
