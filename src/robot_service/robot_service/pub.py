@@ -16,23 +16,22 @@ class Pub(Node):
             'robot_namespace_0/info',
             10)        
 
-        # robot speed 
-        self.cmd_vel_publisher = self.create_publisher(
-            Twist,
-            'robot_namespace_0/cmd_vel',
-            self.cmd_vel_callback,
-            10
-        )
-        self.cmd_vel_publisher
-
         # robot move 
         self.odom_publisher = self.create_publisher(
             Odometry,
             'robot_namespace_0/odom',
-            self.odom_callback,
             10
         )
         self.odom_publisher
+        
+        # robot speed 
+        self.cmd_vel_publisher = self.create_subscription(
+            Twist,
+            'robot_namespace_0/cmd_vel',
+            10
+        )
+
+        self.cmd_vel_publisher
 
         self.info_msg = RobotInfo()
 
